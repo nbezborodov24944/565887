@@ -27,7 +27,6 @@ int main(void) {
     printf("[parent] Начинаю печатать строки...\n");
     for (int i = 1; i <= 5; ++i) {
         printf("[parent] строка %d\n", i);
-        usleep(200000);
     }
 
     printf("[parent] Родитель завершает работу (не ждёт дочернего)\n");
