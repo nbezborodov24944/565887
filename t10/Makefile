@@ -1,5 +1,10 @@
-all:
+all: test1 test2 test3 test4
 	gcc t10.c -o t10
+test1:
 	./t10 ls -l
+test2:
 	./t10 sleep 1
-	./t10 ls /nope
+test3:
+	-./t10 ls /nope
+test4:
+	-./t10 sh -c "kill -9 $$"
