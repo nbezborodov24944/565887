@@ -8,4 +8,4 @@ test2:
 test3:
 	-./t10 ls /nope
 test4:
-	-./t10 sh -c "kill -9 \$$$"
+	-./t10 sh -c "kill -9 \$$"
